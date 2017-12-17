@@ -1,0 +1,7 @@
+image: /home/israel/mybot_ws/src/mybot_navigation/maps/test_map.pgm
+resolution: 0.010000
+origin: [-40.480000, -40.160000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
