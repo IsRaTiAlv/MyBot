@@ -8,6 +8,7 @@ Instructor: Ing. Pinaya Gutierrez Benjamin
 The objective of this project is to implement a navigation system based on ROS for the control of a terrestrial robot that performs autonomous localization and navigation tasks.
 
 A simulated differential vehicle model was created that satisfies the necessary requirements: the transformation tree, the odometry, the laser scanner and the base controller, whose code can be found in the folder src/mybot_description/mybot.xacro
+![robot](https://github.com/IsraelAlvarez/MyBot/blob/master/Images/robot.png)
 
 Gmapping, mapserver and teleoperation were used to map the simulated environment in Gazebo, for this three steps were followed: create the map, save the map and load the map. The maps are in src/mybot_navigation/maps and the worlds of Gazebo are in src/mybot_gazebo/world
 
