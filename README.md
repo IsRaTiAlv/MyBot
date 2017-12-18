@@ -11,10 +11,14 @@ A simulated differential vehicle model was created that satisfies the necessary 
 ![robot](https://github.com/IsraelAlvarez/MyBot/blob/master/Images/robot.png)
 
 Gmapping, mapserver and teleoperation were used to map the simulated environment in Gazebo, for this three steps were followed: create the map, save the map and load the map. The maps are in src/mybot_navigation/maps and the worlds of Gazebo are in src/mybot_gazebo/world
+![mapping](https://github.com/IsraelAlvarez/MyBot/blob/master/Images/mapeoimagen.png)
 
 In the simulation of the autonomous navigation of the robot, ACML was used for the location and the base move package for navigation, in addition to the simulated model of the robot that was charged in Gazebo to perform the simulation, the parameters of the navigation node were configured find in src/mybot_navigation/config
+![navigation](https://github.com/IsraelAlvarez/MyBot/blob/master/Images/Evacion%20de%20Obstaculos.png)
 
 A differential vehicle was built, which was composed mainly of two engines, an arduino and a raspberry pi 3B, and autonomous navigation was carried out with this. Autonomous navigation of a simulated and physical land vehicle could be performed, however the evasion of obstacles I just managed to make it through the simulation. For the detection of physical osbtaculos Visp_auto_track was used, because this uses the node of usb_cam which is compatible with the Raspberry
+![physicsRobot](https://github.com/IsraelAlvarez/MyBot/blob/master/Images/robotFisico.png)
+![allnodes](https://github.com/IsraelAlvarez/MyBot/blob/master/Images/todomasarduino.png)
 
 ## MAPPING 
 There are basically three steps: 
