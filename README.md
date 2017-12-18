@@ -17,8 +17,13 @@ In the simulation of the autonomous navigation of the robot, ACML was used for t
 ![navigation](https://github.com/IsraelAlvarez/MyBot/blob/master/Images/Evacion%20de%20Obstaculos.png)
 
 A differential vehicle was built, which was composed mainly of two engines, an arduino and a raspberry pi 3B, and autonomous navigation was carried out with this. Autonomous navigation of a simulated and physical land vehicle could be performed, however the evasion of obstacles I just managed to make it through the simulation. For the detection of physical osbtaculos Visp_auto_track was used, because this uses the node of usb_cam which is compatible with the Raspberry
+### Physical robot
 ![physicsRobot](https://github.com/IsraelAlvarez/MyBot/blob/master/Images/robotFisico.png)
+### Diagram of nodes and topics
 ![allnodes](https://github.com/IsraelAlvarez/MyBot/blob/master/Images/todomasarduino.png)
+### Serial communication
+![SerialCom](https://github.com/IsraelAlvarez/MyBot/blob/master/Images/ComunicacionSerial.png)
+
 
 ## MAPPING 
 There are basically three steps: 
